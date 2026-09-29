@@ -1,0 +1,13 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Easure.HelpMePrint
+PackageVersion: 0.1.27
+InstallerType: nullsoft
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/hromau/help-me-print-apt/releases/download/v0.1.27/help-me-print-0.1.27-win64.exe
+  InstallerSha256: C1727051497410302A8ECD32548E1D0435879468ACE328248D99F425024E34C8
+ManifestType: installer
+ManifestVersion: 1.12.0
+ReleaseDate: 2026-09-29
